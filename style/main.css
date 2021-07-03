@@ -41,12 +41,12 @@ header nav a:hover {
     margin-right: 20px;
 }
 
-/* Filme em destaque*/
+/* Filme em destaque rgb(37, 42, 52)*/
 
 .filme-principal {
     font-size: 16px;
     height:400px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)50%), url('/img/destaque.jpg');
+    background: linear-gradient(to right, rgba(37, 42, 52, 1), rgba(37, 42, 52, 0.0)), url('/img/destaque.jpg');
     background-size:cover;
     background-position: center;
     display: flex;
