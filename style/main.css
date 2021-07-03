@@ -48,7 +48,6 @@ header nav a:hover {
     height:400px;
     background: linear-gradient(to right,rgba(37,52,52,1), rgba(37,42,52,0)), url(../img/capa.jpg);
     background-size:cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
