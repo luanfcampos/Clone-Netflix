@@ -9,6 +9,18 @@
         width: 300px;
     }
 
+    .filme-principal {
+        font-size: 16px;
+        height:400px;
+        background: linear-gradient(to right,rgba(37,52,52,1), rgba(37,42,52,0)), url(../img/capa2.jpg);
+        background-size:initial;
+        background-position:top;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
 }
 
 @media screen and (min-width:1000px){
