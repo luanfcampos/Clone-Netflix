@@ -83,3 +83,7 @@ header nav a:hover {
     color: black;
 
 }
+
+.botao i{
+    margin-right: 10px;
+}
