@@ -1,8 +1,3 @@
-:root{
-    --vermelho: #e50914;
-    --preta: #141414;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -12,9 +7,9 @@
 /* Base */
 
 body{
-    background: var(--preta);
-    font-family:  'Times New Roman', Times, serif;
-    color: white;
+    background: #252A34;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAEAEA;
 }
 header .container{
     display: flex;
@@ -24,21 +19,21 @@ header .container{
 }
 
 .logo {
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    color: #FF2E63;
+    font-family:'Oswald', sans-serif;
     font-size: 40px;
     margin-left: 5px;
 }
 
 header nav a{
     text-decoration: none;
-    color: #aaa;
+    color: #EAEAEA;
     margin-right: 10px;
 
 }
 
 header nav a:hover {
-    color: #fff;
+    color: #FF2E63;
 }
 
 .container{
@@ -80,17 +75,22 @@ header nav a:hover {
 .botao {
     background-color: rgba(0, 0, 0, 0.50);
     border: none;
-    color: white;
+    color: #EAEAEA;
     padding: 15px 30px;
     margin: 5px;
-    font-size: 12px;
+    font-size: 14px;
     width: 200px;
     transition: .3s ease all;
 }
 
+.botao:first-child {
+    background-color: #FF2E63;
+    color: #EAEAEA;
+}
+
 .botao:hover{
-    background-color: white;
-    color: black;
+    background-color:#EAEAEA;
+    color: #252A34;
 
 }
 
@@ -99,7 +99,7 @@ header nav a:hover {
 }
 
 .box-filme {
-    width: 150px;
+    width: 150 px;
     height: auto;
     display: block;
 }
